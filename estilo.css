@@ -137,7 +137,7 @@ blockquote{
 		grid-template-columns:  50% 50%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1920px) {
 	.grid-container
 			{
 			display: grid;
