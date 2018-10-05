@@ -135,12 +135,15 @@ blockquote{
 	{
 		display: grid;
 		grid-template-columns:  50% 50%;
-	
-		
-		
-	
 }
 
+@media only screen and (max-width: 600px) {
+	.grid-container
+			{
+			display: grid;
+			grid-template-columns:  80%;
+	}
+}
 .grid-item
 	{
 		text-align: center;
