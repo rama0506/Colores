@@ -98,6 +98,7 @@ p
 		font-family: "Courier New", Sans-serif;
 		font-weight: bold;
 		padding: 10px;
+		text-align: center;
 }
 
 img 
@@ -120,7 +121,14 @@ aside{
 footer{
 		font-family: "Courier New", Sans-serif;
 		font-weight: bold;
+		text-align: center;
 	
+}
+
+blockquote{
+		font-family: "Courier New", Sans-serif;
+		font-weight: bold;
+		text-align: center;
 }
 
 .grid-container
