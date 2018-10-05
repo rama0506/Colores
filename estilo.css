@@ -142,6 +142,7 @@ blockquote{
 			{
 			display: grid;
 			grid-template-columns:  80%;
+			align: center;
 	}
 }
 .grid-item
