@@ -84,7 +84,6 @@ li a:hover {
 		padding: 30px;
 		margin: 50px;
 }
-
 .c1	{
 		border: 5px solid #120034;
 		padding: 30px;
@@ -149,7 +148,7 @@ blockquote{
 	{
 		text-align: center;
 		margin:5%;
-		background: #ffffff;
+		background-image: linear-gradient(#a0a0a0, #ffffff);
 		border-style: solid;
 		border-color: #128749;
 		
@@ -170,4 +169,12 @@ blockquote{
 	width: 100%; 
 	border-top-style: solid;
 	border-top-color: #600080;
+}
+
+.grid-item2
+	{
+		grid-column-start: 1;
+		grid-column-end: 4;
+		
+		
 }
