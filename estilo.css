@@ -38,9 +38,9 @@ h3
 
 }
 
-#lista
+ul
 	{
-		background: #169c59;
+		/*background: #169c59;*/
 		padding: 10px;
 		border-radius: 50px;
 		list-style-type: none;
