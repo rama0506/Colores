@@ -62,6 +62,12 @@ li
 		font-weight: bold;
 }
 
+.sld
+	{
+		margin: 5px;
+		display: inline;
+}
+
 a:link, a:visited {
     color: #e9fcf2;
     text-align: center; 
