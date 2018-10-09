@@ -179,7 +179,7 @@ blockquote{
 		
 }
 
-.slider {
+.slideR {
     -webkit-appearance: none;
     width: 100%;
     height: 25px;
@@ -190,11 +190,11 @@ blockquote{
     transition: opacity .2s;
 }
 
-.slider:hover {
+.slideR:hover {
     opacity: 1;
 }
 
-.slider::-webkit-slider-thumb {
+.slideR::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     border-radius: 50%;
