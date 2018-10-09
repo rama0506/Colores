@@ -3,7 +3,19 @@
 <html lang="es">
 	<head>
 		<link rel="stylesheet" type="text/css" href="./estilo.css">
-			<h1>COLORES</h1>
+		<h1>COLORES</h1>
+		<script>
+			function cambiacolor(){
+				var r, g, b, color;
+				r = document.getElementById('slideR').value;
+				g = document.getElementById('slideG').value;
+				b = document.getElementById('slideB').value;
+				color = 'rgb('+r+','+g+','+b+');';
+				document.getElementById('idlista').style.backgroud=color;
+			
+			}
+		</script>
+		
 	</head>
 <div class= "line"></div>
 	<body>
@@ -20,9 +32,9 @@
 		
 		<section>
 			
-			<div class= "sld"><input type="range" value= "100" min= "0" max= "255" id="slideR"></div>
-			<div class= "sld"><input type="range" value= "100" min= "0" max= "255" id="slideG"></div>
-			<div class= "sld"><input type="range" value= "100" min= "0" max= "255" id="slideB"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideR" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideG" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideB" onchange="cambiacolor()" oninput="cambiacolor()"></div>
 			
 			<h2>Bienvendo. esta es un pagina de colores. en la cual no solo podras ver la gran cantidad de colores que hay, si no saber un poco mas acerca de lo que son los colores, diferentes formas de mezclarlos y hasta sus codigos para que quiera utilizarlos en tus diseños.</h2>
 			<div class= "line"></div>
