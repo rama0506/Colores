@@ -188,7 +188,7 @@ blockquote{
 #slideR {
     	-webkit-appearance: none;
     	width: 30%;
-	height: 25px;
+	height: 5px;
    	background: #d3d3d3;
     	outline: none;
     	opacity: 0.7;
@@ -213,7 +213,7 @@ blockquote{
 #slideG {
     	-webkit-appearance: none;
     	width: 30%;
-	height: 25px;
+	height: 5px;
    	background: #d3d3d3;
     	outline: none;
     	opacity: 0.7;
@@ -238,7 +238,7 @@ blockquote{
 #slideB {
     	-webkit-appearance: none;
     	width: 30%;
-	height: 25px;
+	height: 5px;
    	background: #d3d3d3;
     	outline: none;
     	opacity: 0.7;
