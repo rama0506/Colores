@@ -9,8 +9,16 @@
 				var x = document.forms["myForm"]["Nombre"].value;
 				var y = document.forms["myForm"]["Apellido"].value;
 				var z = document.forms["myForm"]["Asunto"].value;
-			    if (x,y,z; == "") {
-				alert("Name must be filled out");
+			if (x == "") {
+				alert("Nombre no puede permanecer vacio");
+				return false;
+					    }
+			if (y == "") {
+				alert("Apellido no puede permanecer vacio");
+				return false;
+					    }
+			if (z == "") {
+				alert("Asunto no puede permanecer vacio");
 				return false;
 					    }
 					}
