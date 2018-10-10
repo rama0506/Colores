@@ -6,8 +6,8 @@
 			<h1>COLORES</h1>
 		<script type= 'text/javascript'>
 			function validateForm() {
-			    var name = document.forms["myForm"]["fname"].value;
-			    if (name == "") {
+			    var x = document.forms["myForm"]["Nombre"].value;
+			    if (x == "") {
 				alert("Name must be filled out");
 				return false;
     }
@@ -30,7 +30,7 @@
 			</ul>
 		</nav>
 		
-		<form>
+		<form name="myForm">
 				<li class="camp">Nombre:
 				<input type="text" name="Nombre" ></li>
 			
