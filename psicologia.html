@@ -3,22 +3,39 @@
 <html lang="es">
 	<head>
 		<link rel="stylesheet" type="text/css" href="./estilo.css">
-			<h1>Psicologia</h1>
+		<h1>COLORES</h1>
+		<script type= 'text/javascript'>
+			function cambiacolor(){
+				var r, g, b, color;
+				r = document.getElementById('slideR').value;
+				g = document.getElementById('slideG').value;
+				b = document.getElementById('slideB').value;
+				color = 'rgb('+r+','+g+','+b+')';
+				document.getElementById("lista").style.backgroundColor= color;
+			
+			}
+		</script>
+		
 	</head>
 <div class= "line"></div>
 	<body>
 		<nav>
-			<ul>
-				<li><a href= "tipos.html">Tipos</a></li>
-				<li><a href= "composicion.html">Composicion</a></li>
-				<li><a href= "index.html">Inicio</a></li>
-				<li><a href= "psicologia.html">Psicologia</a></li>
-				<li><a href= "ui.html">UI</a></li>
-				<li><a href= "contacto.html">Contacto</a></li>
+			<ul id="lista">
+				<li id="lista"><a href= "tipos.html">Tipos</a></li>
+				<li id="lista"><a href= "composicion.html">Composicion</a></li>
+				<li id="lista"><a href= "index.html">Inicio</a></li>
+				<li id="lista"><a href= "psicologia.html">Psicologia</a></li>
+				<li id="lista"><a href= "ui.html">UI</a></li>
+				<li id="lista"><a href= "contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
 		
 		<section>
+			
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideR" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideG" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideB" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			
 			<h2>La psicología del color es un campo de estudio que está dirigido a analizar cómo percibimos y nos comportamos ante distintos colores, así como las emociones que suscitan en nosotros dichos tonos.
 
 			Hay ciertos aspectos subjetivos en la psicología del color, por lo que no hay que olvidar que pueden existir ciertas variaciones en la interpretación y el significado entre culturas. A pesar de todo, hay ciertos principios aceptados que vamos a repasar en este artículo y que se aplican fundamentalmente a las sociedades occidentales.</h2>
