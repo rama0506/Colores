@@ -2,22 +2,39 @@
 
 <html lang="es">
 	<head>
-		<link rel="stylesheet" type="text/css" href="estilo.css">
-			<h1>COMPOSICIÓN</h1>
+		<link rel="stylesheet" type="text/css" href="./estilo.css">
+		<h1>COLORES</h1>
+		<script type= 'text/javascript'>
+			function cambiacolor(){
+				var r, g, b, color;
+				r = document.getElementById('slideR').value;
+				g = document.getElementById('slideG').value;
+				b = document.getElementById('slideB').value;
+				color = 'rgb('+r+','+g+','+b+')';
+				document.getElementById("lista").style.backgroundColor= color;
+			
+			}
+		</script>
+		
 	</head>
 <div class= "line"></div>
 	<body>
 		<nav>
-			<ul>
-				<li><a href= "tipos.html">Tipos</a></li>
-				<li><a href= "composicion.html">Composicion</a></li>
-				<li><a href= "index.html">Inicio</a></li>
-				<li><a href= "psicologia.html">Psicologia</a></li>
-				<li><a href= "ui.html">UI</a></li>
-				<li><a href= "contacto.html">Contacto</a></li>
+			<ul id="lista">
+				<li id="lista"><a href= "tipos.html">Tipos</a></li>
+				<li id="lista"><a href= "composicion.html">Composicion</a></li>
+				<li id="lista"><a href= "index.html">Inicio</a></li>
+				<li id="lista"><a href= "psicologia.html">Psicologia</a></li>
+				<li id="lista"><a href= "ui.html">UI</a></li>
+				<li id="lista"><a href= "contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-			<section>
+		
+		<section>
+			
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideR" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideG" onchange="cambiacolor()" oninput="cambiacolor()"></div>
+			<div class= "sld"><input type="range" value= "125.5" min= "0" max= "255" id="slideB" onchange="cambiacolor()" oninput="cambiacolor()"></div>
 			
 			<p>En el arte de la pintura, el diseño gráfico, el diseño visual, la fotografía, la imprenta y en la televisión, la teoría del color es un grupo de reglas básicas en la mezcla de colores para conseguir el efecto deseado combinando colores de luz o pigmento. La luz blanca se puede producir combinando el <b>rojo</b>, el <b>verde</b> y el <b>azul</b>, mientras que combinando pigmentos <b>cían</b>, <b>magenta</b> y <b>amarillo</b> se produce el color negro.</p>
 			<div class= "line"></div>
