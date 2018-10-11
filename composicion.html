@@ -3,18 +3,30 @@
 <html lang="es">
 	<head>
 		<link rel="stylesheet" type="text/css" href="./estilo.css">
-			<h1>Composicion</h1>
+		<h1>Composicion</h1>
+		<script type= 'text/javascript'>
+			function cambiacolor(){
+				var r, g, b, color;
+				r = document.getElementById('slideR').value;
+				g = document.getElementById('slideG').value;
+				b = document.getElementById('slideB').value;
+				color = 'rgb('+r+','+g+','+b+')';
+				document.getElementById("lista").style.backgroundColor= color;
+			
+			}
+		</script>
+		
 	</head>
 <div class= "line"></div>
 	<body>
 		<nav>
-			<ul>
-				<li><a href= "tipos.html">Tipos</a></li>
-				<li><a href= "composicion.html">Composicion</a></li>
-				<li><a href= "index.html">Inicio</a></li>
-				<li><a href= "psicologia.html">Psicologia</a></li>
-				<li><a href= "ui.html">UI</a></li>
-				<li><a href= "contacto.html">Contacto</a></li>
+			<ul id="lista">
+				<li id="lista"><a href= "tipos.html">Tipos</a></li>
+				<li id="lista"><a href= "composicion.html">Composicion</a></li>
+				<li id="lista"><a href= "index.html">Inicio</a></li>
+				<li id="lista"><a href= "psicologia.html">Psicologia</a></li>
+				<li id="lista"><a href= "ui.html">UI</a></li>
+				<li id="lista"><a href= "contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
 		
